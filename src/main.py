@@ -9,7 +9,7 @@ coloredlogs.install(level='DEBUG', logger=logger)
 
 today = time.strftime("%d%m%Y")
 downloadDir = str(Path.home() / "Downloads")
-datafeedDir = downloadDir+'/'+todayo
+datafeedDir = downloadDir+'/'+today
 
 def main():
    menu = True
